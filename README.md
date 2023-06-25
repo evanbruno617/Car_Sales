@@ -70,7 +70,31 @@ Given the data the variable that has the best linear relationship with U/N is th
 ---
 
 ## Multivariate
+Using multivariate linear regression model, 4 factors are chosen that are used to find the best model to predict: Average cost of a new car, Average cost of a used Car, Ratio of used to new cars sold, Ratio of used to new car sales, Total sales of new cars, and Total sales of used cars.
 
+## Average Price of New Cars
+
+![image](https://github.com/evanbruno617/Car_Sales/blob/main/Resources/Multivariate/Avg_New.png)
+
+As seen with the image above the variables that produce the highest R^2 value are:  10 year interest rate, Money Supply, Median CPI, and Sticky CPI. Given these variables are inputed into the multivariate linear regression it produces a R^2 value of 0.945 with a standardized coefficient of 0.98.
+
+## Average Price of Used Cars
+
+![image](https://github.com/evanbruno617/Car_Sales/blob/main/Resources/Multivariate/Avg_Used.png)
+
+As seen with the image above the variables that produce the highest R^2 value are:  10 year interest rate, Money Supply, Median CPI, and Sticky CPI. Given these variables are inputed into the multivariate linear regression it produces a R^2 value of 0.81 with a standardized coefficient of 0.98.
+
+## Ratio of Used to New Cars Sold
+
+![image](https://github.com/evanbruno617/Car_Sales/blob/main/Resources/Multivariate/Ratio_Used_New.png)
+
+As seen with the image above the variables that produce the highest R^2 value are:  10 year interest rate, Money Supply, Median CPI, and Unemployment. Given these variables are inputed into the multivariate linear regression it produces a R^2 value of 0.63 with a standardized coefficient of 1.09.
+
+## Total Sales of New Cars
+
+![image](https://github.com/evanbruno617/Car_Sales/blob/main/Resources/Multivariate/Total%20Sales%20Used.png)
+
+As seen with the image above the variables that produce the highest R^2 value are: 10 year interest rate, Money Supply, Median CPI, and Sticky CPI.. Given these variables are inputed into the multivariate linear regression it produces a R^2 value of 0.60 with a standardized coefficient of 0.933.
 
 
 
