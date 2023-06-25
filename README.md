@@ -96,7 +96,11 @@ As seen with the image above the variables that produce the highest R^2 value ar
 
 As seen with the image above the variables that produce the highest R^2 value are: 10 year interest rate, Money Supply, Median CPI, and Sticky CPI.. Given these variables are inputed into the multivariate linear regression it produces a R^2 value of 0.60 with a standardized coefficient of 0.933.
 
+# Conclusion
+---
+Given this detailed analysis of trends and predictions of car sales there is a lot of data to base suppliers and buyers strategies from. For supplies they can review the trends in Car Prices and demand to strategize their prices and supply for those given months to maximize profit. Given the same data buyers can use it to their advantage as well to know when prices are at their lowest to buy and when to avoid purchasing. 
 
+Given the predictions portion of this analysis the economic data in the U.S. provides a good indicator that the car market will look like. The linear regression that seems to have the best result is using a multivariate linear regression with 4 economic factors. Given a certain factor thats wants to be analyze anyone can predict what that factor will approixmately be in the upcoming month by inputting the economic data into the linear regression model.
 
 
 
