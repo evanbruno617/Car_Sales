@@ -58,14 +58,14 @@ Using the money supply Linear regression was performed on each of variable in de
 
 ![image](https://github.com/evanbruno617/Car_Sales/blob/main/Resources/Univariate/Stick_CPI_2.png)
 
-Given the data the variable that has the best linear relationship with SCPI is the average used car price. It has a R^2 value of 0.37 with a standardized coefficient of correlation of 0.57. When predicting the future average used car price in the next month the equation is : price = SCPI * 1493.5 + 6615.38 will be used. Increasinf inflation by 1% will increase the overall price of a used car by 1493 in the following month.
+Given the data the variable that has the best linear relationship with SCPI is the average used car price. It has a R^2 value of 0.37 with a standardized coefficient of correlation of 0.57. When predicting the future average used car price in the next month the equation is : price = SCPI * 1493.5 + 6615.38 will be used. Increasing inflation by 1% will increase the overall price of a used car by 1493 in the following month.
 
 ### Unemployment Rate
 Using the money supply Linear regression was performed on each of variable in determining how the U/N of the previous month affects the variable of the current month.
 
 ![image](https://github.com/evanbruno617/Car_Sales/blob/main/Resources/Univariate/Stick_CPI_2.png)
 
-Given the data the variable that has the best linear relationship with U/N is the avergar used car price. It has a R^2 value of 0.45 with a standardized coefficient of correlation of -0.67. This indicates a nergative correlation between the two. When predicting the future Ratio of Used to New car sales in the next month the equation is : price = U/N * -0.009454 + 0.371 will be used. 
+Given the data the variable that has the best linear relationship with U/N is the average used car price. It has a R^2 value of 0.45 with a standardized coefficient of correlation of -0.67. This indicates a nergative correlation between the two. When predicting the future Ratio of Used to New car sales in the next month the equation is : price = U/N * -0.009454 + 0.371 will be used. 
 
 ---
 
