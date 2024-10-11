@@ -117,25 +117,47 @@ Afterwards the new regression is ran with the I(1) indepdent variables.
 
 ![image](https://github.com/evanbruno617/Car_Sales/blob/main/Resources/Screenshot%202024-10-10%20at%209.35.36%E2%80%AFPM.png)
 
+After estimating the model the RMSE is extremely high therefore showing that this model is not a good prediction of change of total sales of used cars. 
+
 ## Total Sales of New Cars
+
+Regression is ran with the I(1) indepdent variables. 
 
 ![image](https://github.com/evanbruno617/Car_Sales/blob/main/Resources/Screenshot%202024-10-10%20at%209.34.43%E2%80%AFPM.png)
 
+After estimating the model the RMSE is extremely high therefore showing that this model is not a good prediction of change of total sales of new cars. 
+
 ## Average Price of New Cars
+
+Regression is ran with the I(1) indepdent variables. 
 
 ![image](https://github.com/evanbruno617/Car_Sales/blob/main/Resources/Screenshot%202024-10-10%20at%209.36.37%E2%80%AFPM.png)
 
+After estimating the model the RMSE was found to be 498. When looking at the range there are outliers at around -1000 so eliminate those data points and then find NRMSE by dividing RMSE by the total range coming out to be 25%. While not the best result it shows that the model is acceptable. 
+
 ## Average Price of Used Cars
+
+Regression is ran with the I(1) indepdent variables. 
 
 ![image](https://github.com/evanbruno617/Car_Sales/blob/main/Resources/Screenshot%202024-10-10%20at%209.36.16%E2%80%AFPM.png)
 
+After estimating the model the RMSE was found to be 172. When looking at the range there are outliers at around -1000 and 1000 so eliminate those data points and then find NRMSE by dividing RMSE by the total range coming out to be 16%. This indicates that the model is good estimator in predicting the change in averagr price of used cars. 
+
 ## Ratio of Used to New Cars
+
+Regression is ran with the I(1) indepdent variables. 
 
 ![image](https://github.com/evanbruno617/Car_Sales/blob/main/Resources/Screenshot%202024-10-10%20at%209.37.45%E2%80%AFPM.png)
 
+After estimating the model the RMSE was found to be 0.063. When looking at the range there weren't any significant outliers so the NRMSE was calculated at 0.15. This indicates that the model is good estimator in predicting the change in ratio in used to new cars. 
+
 ![image](https://github.com/evanbruno617/Car_Sales/blob/main/Resources/Screenshot%202024-10-10%20at%201.33.02%E2%80%AFPM.png)
 
+However when testing for serially corelation it was found that there was correlation at lag 2. In order to deal with this lag 1 and 2 were added to the original model to get rid of the serial correlation. 
+
 ![image](https://github.com/evanbruno617/Car_Sales/blob/main/Resources/Screenshot%202024-10-10%20at%209.57.14%E2%80%AFPM.png)
+
+After testing the RMSE again it stayed relatively the same but decreasing slightly. 
 
 
 
@@ -144,7 +166,9 @@ Afterwards the new regression is ran with the I(1) indepdent variables.
 ---
 Given this detailed analysis of trends and predictions of car sales there is a lot of data to base suppliers and buyers strategies from. For supplies they can review the trends in Car Prices and demand to strategize their prices and supply for those given months to maximize profit. Given the same data buyers can use it to their advantage as well to know when prices are at their lowest to buy and when to avoid purchasing. 
 
-Given the predictions portion of this analysis the economic data in the U.S. provides a good indicator that the car market will look like. The linear regression that seems to have the best result is using a multivariate linear regression with 4 economic factors. Given a certain factor thats wants to be analyze anyone can predict what that factor will approixmately be in the upcoming month by inputting the economic data into the linear regression model.
+Given the predictions portion of this analysis the economic data in the U.S. provides a good indicator that the car market will look like. Even though the linear predictions look good there is the assumption of indepdence being validated which no longer makes the model the best. 
+
+By implementing the time series model it should give the best forecasting predictions for buyers and sellers to use. The models that turned out successful were predicting change in average used and new car prices as well as the change in the ratio of used to new cars. By being able to predict the change in average price of used cars consumers can plan their purchases accordingly and buyers can better manage their supplies and focus on certain months. This same logic works for new cars as well. As for change in ratio of used to new cars this can predict when there is a change in demand. When it predicts the ratio going up that means it will predict there will be a higher demand for used than new cars in that given month. Sellers can use this data to price their cars accordingly given the change in demand and buyers can use this information as well to plan their purchases.  
 
 
 
