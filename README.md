@@ -105,17 +105,21 @@ Even though these predictions are good with a high R^2 there is an important cav
 
 In order to run time series analysis on the data it is imperative to make sure both the dependent and independent variables are stationary. Using the Dickey-Fuller Test it is found that all of the dependent variables looking to be evaluated and the independent variables are stationary with order of integration of 1. Afterwards the regression was run again with these new variables and checked for serial correlation and heteroskedaticity. 
 
-## Total Sales of New Cars
-
-![image](https://github.com/evanbruno617/Car_Sales/blob/main/Resources/Screenshot%202024-10-10%20at%209.34.43%E2%80%AFPM.png)
-
 ## Total Sales of Used Cars
 
 ![image](https://github.com/evanbruno617/Car_Sales/blob/main/Resources/Screenshot%202024-10-10%20at%201.32.05%E2%80%AFPM.png)
 
+As seen in the image above the total sales of Used cars does not seem to be stationary and it fails the Dickey-Fuller test if integration of 0. However when testing for the integration of 1 it is validated. The change of total sales of used cars is seen below as stationary. 
+
 ![image](https://github.com/evanbruno617/Car_Sales/blob/main/Resources/Screenshot%202024-10-10%20at%201.32.25%E2%80%AFPM.png)
 
+Afterwards the new regression is ran with the I(1) indepdent variables. 
+
 ![image](https://github.com/evanbruno617/Car_Sales/blob/main/Resources/Screenshot%202024-10-10%20at%209.35.36%E2%80%AFPM.png)
+
+## Total Sales of New Cars
+
+![image](https://github.com/evanbruno617/Car_Sales/blob/main/Resources/Screenshot%202024-10-10%20at%209.34.43%E2%80%AFPM.png)
 
 ## Average Price of New Cars
 
